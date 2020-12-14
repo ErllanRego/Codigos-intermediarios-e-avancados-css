@@ -1,0 +1,34 @@
+/*----SELETOR UNIVERSAL----:
+    Seleciona todos os elementos da página*/
+
+*{
+    padding:0px;
+    margin:0px;
+}
+
+/*----SELETOR DE TEXTO----:
+    Seleciona elementos pelo tipo*/
+h1, h2, h3 {
+    color:red;
+}
+
+/*----SELETOR DE CLASSE----:
+    Seleciona o elemento cujo o atributo class tem o valor específicado depois do ponto*/
+
+.verde{
+    color:green;
+}
+/*No exemplo abaixo, todos os elementos <p> com a class="verde", serão selecionados*/
+p.verde{
+    color:green;
+    background:black;
+}
+
+/*----SELETOR DE ID----:
+    Seleciona o elemento cujo o atributo ID tem o valor especificado após o # (cerquilha)*/
+
+#amarelo{
+    color:yellow;
+    background:blue;
+}
+
