@@ -32,3 +32,36 @@ p.verde{
     background:blue;
 }
 
+/*----SELETOR DE FILHO----:
+    Seleciona um elemento que é filho direto de outro*/
+
+/*No exemplo abaixo, todos os elementos "a" que estiverem diretamente dentro de "li" serão selecionados, netos não serão selecionados*/
+/*Neste caso, se o elemento "a" estivesse dentro de um spam por exemplo, e mesmo este span estando dentro do li, a formatação não será feita pois o "a" precisa estar diretamente dentro de li*/
+li>a{
+    text-decoration:none;
+    background:green;
+}
+
+/*----SELETOR DE DESCENDENTE----:
+    Semelhante ao seletor de filho, porém não é necessário estar diretamente dentro da caixa pai*/
+
+/*No exemplo abaixo, mesmo o elemento "a" estando dentro de um span que está dentro do p, ele ainda assim é selecionado*/
+p a{
+    color:red;
+    font-size:48px;
+}
+
+/*----SELETOR DE IRMÃO ADJACENTE----:
+    Seleciona o irmão mais próximo do elemento*/
+
+/*No exemplo abaixo, todo o irmão que vier em seguida do h1 que contenha o ID="irmao", será selecionado, no caso, o p. Os demais p irmãos de h1 não serão formatados, apenas aquele que vem logo em seguida.*/
+h1#irmao+p{
+    color:blueviolet;
+}
+/*----SELETOR DE IRMÃO GERAL----:
+    Seleciona o irmão do elemento, sem a necessidade de ser o mais próximo*/
+
+/*No exemplo abaixo, todos os p que são irmãos do h2 com a ID="irmao" serão selecionados*/
+h2#irmao~p{
+    color:aqua;
+}
