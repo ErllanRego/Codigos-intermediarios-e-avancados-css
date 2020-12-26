@@ -1,0 +1,39 @@
+/*----HERANÇA----*/
+body{
+    color:red;/*Color e tamanho de fonte são herdados para os elementos dentro do body*/
+    font-size:25px;
+    border: 2px solid blue;/*Por padrão, border e background não são herdados*/
+    background:gray; /* A não ser que se utilize o seletor universal "*" que seleciona todos os elementos da página*/
+}
+
+p{
+    color:green; 
+}
+
+p{
+    color:blue; /*No caso de 2 seletores iguais, o que será aplicado será o último*/
+}
+
+p{
+    color:green !important; /*Tudo muda se for utilizado o "!important", pois isso o define como        prioridade*/
+}                             /*É recomendado que se resolva a maior parte das formatações sem utilizar o "!important" para evitar erros*/
+
+p{
+    color:blue; 
+}
+
+/*----ESPECIFICIDADE----*/
+/*A REGRA É: Seletores mais específicos tem precedência sobre os seletores mais gerais*/
+
+*{
+    color:black;/*Este é um seletor geral*/
+}
+
+h1{
+    color:blue;/*Esse é mais específico que o anterior pois seleciona de forma mais específica*/
+}
+
+h1.verde{
+    color:green;/*Esse é mais específico ainda por ter uma class com ele, e seria ainda mais se tivesse um id*/
+}
+/*Em relação à especificidade, a ordem não importa, estando o seletor na primeira linha ou na última, enquanto ele for o mais específico, terá precedência*/
