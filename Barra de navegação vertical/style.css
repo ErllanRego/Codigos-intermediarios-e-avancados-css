@@ -1,0 +1,10 @@
+ul{
+    list-style-type: none;
+    margin:0px;
+    padding:0px;
+}
+
+li{
+    padding: 5px 20px;
+    background:url('img/seta.png') no-repeat left center;/* O ícone é só questão de posicionamento*/
+}
