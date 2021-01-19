@@ -1,0 +1,5 @@
+ /*O "text-indent" formata a indentação do texto, é ideal para parágrafos. Também é possível usar para colocar um espaçamento em textos de menus como foi feito no "MenuVertical.html"*/
+ body{
+text-indent:40px;
+}
+

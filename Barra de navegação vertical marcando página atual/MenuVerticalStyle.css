@@ -1,0 +1,22 @@
+ul {
+    list-style-type:none;
+    padding:0px;
+    margin:0px;
+}
+
+ul a{
+    width:200px;
+    height:40px;
+    display:block; /*Foi alterado de inline para block pois o elemento "a" se comporta em linha.*/
+    background: url('img/menu.png')no-repeat left bottom;
+    color:#000;
+    text-decoration:none;
+    text-indent:40px;
+    line-height:40px;
+
+}
+
+a:hover{
+    background: url('img/menu.png')no-repeat right bottom;
+    color:#fff;
+}

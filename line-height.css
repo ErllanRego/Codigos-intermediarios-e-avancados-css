@@ -1,0 +1,5 @@
+/*Enquanto o "font-size" formata diretamente o tamanho do texto, o "line-height" formata o tamanho da linha que esse texto ocupa, pode ser usado principalmente para posicionamento de texto, abaixar, subir ou até centralizar dentro da caixa*/
+body{
+    line-height:40px;
+    font-size:14px;
+}
