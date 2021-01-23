@@ -8,7 +8,7 @@ ul a{
     width:200px;
     height:40px;
     display:block; /*Foi alterado de inline para block pois o elemento "a" se comporta em linha.*/
-    background: url('img/menu.png')no-repeat left bottom;
+    background: #f7b600 url('img/menu.png')no-repeat left bottom;/* Foi acrescentado uma cor antes da imagem, para o caso de a imagem não carregar*/
     color:#000;
     text-decoration:none;
     text-indent:40px;
@@ -16,7 +16,30 @@ ul a{
 
 }
 
-a:hover{
-    background: url('img/menu.png')no-repeat right bottom;
+a:hover, .selecionado a{
+    background:  #f99200 url('img/menu.png')no-repeat right bottom;/* No código acima foi definido que a imagem ia ficar na esquerda, com o estado hover, definimos que quando o cursor passar por cima, ele se moverá para a direita.*/
+    color:#fff;
+}
+
+
+
+
+/*FORMA SIMPLES DE SELECIONAR PÁGINA ATUAL NO MENU
+Apenas acrescenta-se a class no menu que precisa ficar selecionado em cada página
+
+    a:hover, .selecionado a{
+    background:  #f99200 url('img/menu.png')no-repeat right bottom;
+    color:#fff;
+    }
+*/
+
+
+/*FORMA MAIS COMPLEXA DE SELECIONAR*/
+
+
+#home #navegacaoVertical .home a,
+ #sobre #navegacaoVertical .sobre a,
+  #servicos #navegacaoVertical .servicos a{
+    background:  #f99200 url('img/menu.png')no-repeat right bottom;
     color:#fff;
 }
