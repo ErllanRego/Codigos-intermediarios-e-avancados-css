@@ -1,0 +1,43 @@
+*{
+    margin:0px;
+    padding:0px;
+    
+}
+
+ul{
+    
+    list-style:none;
+    width:720px;
+    background:#159cb0 url('img/fundo-horizontal.png') repeat-x;
+    float:left;
+
+
+}
+
+ul li{
+    float:left;
+    
+}
+
+.clear{
+    clear:both;
+}
+
+ul a{
+    display:block;
+    padding:0 2em;
+    line-height:2em;
+    text-decoration:none;
+    color:#fff;
+    background:url('img/divisor.png')repeat-y left top;/*Dá para chegar no mesmo efeito que esse divisor usando "border-left:#exemploDecor;*/
+}
+
+ ul .primeiro a{
+    background:none; /*Pra tirar o divisor do primeiro*/
+}
+
+ul a:hover {
+    color:#085662;
+    background:#44cade;
+
+}
