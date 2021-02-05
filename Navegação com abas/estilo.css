@@ -8,11 +8,14 @@ ul{
     
     list-style:none;
     width:720px;
+    background: url('img/aba-direita.png');
+    float:left;
 }
 
 ul li{
     float:left;
     border:2px solid red;
+    background:url('img/aba-esquerda.png')repeat-y;
     
 }
 
