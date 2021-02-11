@@ -1,0 +1,15 @@
+#container{
+    
+    width:100%;/*720*/
+    margin:0 auto;
+    background: #fff;
+    min-width:720px;/*Por mais que o tamanho se adapte ao da tela usando as porcentagens, apatir do momento que atingir os 720px, não irá mais reduzir.
+    MIN-WIDTH=Largura mínima*/
+
+    max-width:960px;
+    /*Apatir do momento que o navegador atingir o tamanho de 960px, ele não aumenta mais que isso.
+    MAX-WIDTH=largura máxima*/
+}
+
+
+/*Pode-se fazer o mesmo com max-height ou min-height*/
