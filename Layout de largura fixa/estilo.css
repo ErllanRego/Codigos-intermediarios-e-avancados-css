@@ -20,16 +20,37 @@ body{
 #conteudo {
     width:520px;
     float: right;
-    border:1px solid red;
+
 }
 
+#conteudo-principal{
+    width:320px;
+    float: left;
+}
+
+#conteudo-secundario{
+    width: 150px;
+    float: right;
+    background: #d1d1d1;
+    padding-left:20px;
+    padding-right:20px;
+    
+}
 #navegacao{
     width:180px;
     float: left;
     padding-top:20px;
     padding-bottom:20px;
     background:#d1d1d1;
-    border:1px solid red;
+
+}
+
+#navegação ul{
+    list-style:none;
+}
+
+#navegação li a{
+    text-decoration: none;
 }
 
 #rodape{
