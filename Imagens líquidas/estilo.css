@@ -1,0 +1,15 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+#container{
+    width:720px;
+    margin:0 auto;
+}
+
+#marca{
+    background:gray;
+    line-height:5em;
+    text-align:center;
+}
