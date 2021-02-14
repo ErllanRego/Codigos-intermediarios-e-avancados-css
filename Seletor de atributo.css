@@ -1,0 +1,6 @@
+/*O colchete seleciona o tipo, neste caso do input.
+Portanto, somente os inputs do tipo texto sofrerão esta formatação abaixo*/
+input[type="text"]{
+    width:100%;
+}
+
