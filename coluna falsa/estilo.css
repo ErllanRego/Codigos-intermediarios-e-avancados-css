@@ -3,12 +3,14 @@ body{
     background:#f2f2f2;
 }
 
-#container{
+#Container{
     
     width:960px;
     margin:0 auto;
-    background: #fff;
+    background:url('img/coluna.png') repeat-y left top;
     min-width:720px;
+    
+    
     
 }
 
@@ -25,6 +27,9 @@ body{
     width:74%;/*520px-> 74,28 (REGRA DE TRÊS)*/
     float: right;
 /*Os valores da porcentagem foram arredondados ou adaptados*/
+    
+    
+    
 }
 
 #conteudo-principal{
@@ -52,7 +57,7 @@ img.img-noticia{
     float: left;
     padding-top:20px;
     padding-bottom:20px;
-    background:#d1d1d1;
+   
 
 /*Os valores da porcentagem foram arredondados ou adaptados*/
 
