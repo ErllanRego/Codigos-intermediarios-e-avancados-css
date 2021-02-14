@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Códigos intermediários CSS</title>
+</head>
+
+<body>
+    <h2>Estilizando formulários</h2>
+    <form>
+        <fieldset><!--Agrupa elementos semelhantes-->
+            <legend>Detalhes de contato</legend>
+
+            <div>
+                <label for="nome">Nome:</label><!--Label=Etiqueta-->
+                <!--Quando colocamos o "for="nome", cujo é o mesmo valor(ID) do input, indicamos que o label é direcionado para aquele input. Quando clicamos em "Nome" no navegador, automáticamente é destacado para o usuário a barra de preenchimento correta"-->
+                <input type="text" name="nome" id="nome">
+
+                <!--OUTRA FORMA DE FAZER ISSO É COLOCANDO O INPUT DENTRO DO LABEL:  
+                <label>Nome:
+                    <input type="text" name="nome" id="nome">
+                </label>
+
+                O RESULTADO DE AMBOS É O MESMO -->
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="text" name="Email" id="Email">
+            </div>
+
+            <div>
+                <label for="URL">URL:</label>
+                <input type="text" name="URL" id="URL">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
