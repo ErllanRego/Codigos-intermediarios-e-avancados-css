@@ -1,0 +1,44 @@
+*{
+    padding:0px;
+    margin:0px;
+    font:"Trebuchet MS", Helvetica, sans-serif;
+}
+
+.clear{
+    clear:both;
+}
+
+body{
+    background:url(img/fundo.png)repeat-x;
+}
+
+#container{
+    width:720px;
+    margin:0 auto;
+}
+
+#logo{
+    float:left;
+    margin:20px 0px;
+}
+
+#detalheTopo{
+    float:right;
+}
+
+#menuHorizontal ul{
+    float:left;
+    border:2px blue solid;
+    margin-top:20px;
+}
+
+#menuHorizontal li{
+    display:inline;
+    border:red solid 2px;
+}
+
+#menuHorizontal a{
+    color:#fff;
+    text-decoration:none;
+}
+
