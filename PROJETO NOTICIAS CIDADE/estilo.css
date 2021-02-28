@@ -30,15 +30,22 @@ body{
     float:left;
     border:2px blue solid;
     margin-top:20px;
+    background:red;
+    line-height:30px;
 }
 
 #menuHorizontal li{
     display:inline;
-    border:red solid 2px;
+    padding:10px;
+    background:url('img/divisor.png')no-repeat right center;
+    
+    
 }
 
 #menuHorizontal a{
     color:#fff;
     text-decoration:none;
+    
+    
 }
 
