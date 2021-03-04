@@ -21,12 +21,14 @@ ul{
 }
 
 /*----Area Superior----*/
-    #areaSuperior{
+#areaSuperior{
         height:150px;
         background: url(img/detalhe-topo.png)no-repeat right top;
         padding-top:25px;
+        border:1px solid red;
     }
-/*----Logo e detalhe Logo----*/
+
+/*----Logo do site----*/
 .logo{
     width:152px;
     height:66px;
@@ -65,8 +67,18 @@ ul{
     color:#69001d;
 }
 
-.home #menuHorizontal ul a#home{
+.home #menuHorizontal ul a#home,
+.brasil #menuHorizontal ul a#brasil,
+.internacional #menuHorizontal ul a#internacional,
+.fotos #menuHorizontal ul a#fotos{
     color:#fff;
     background:#de003e;
     cursor:text;
-}   
+} 
+
+
+/*----Conteudo----*/
+#conteudo div{
+    background:blue;
+}
+
