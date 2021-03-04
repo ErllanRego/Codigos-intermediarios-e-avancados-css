@@ -5,7 +5,7 @@
 }
 
 body{
-    font:"Trebuchet MS", Helvetica, sans-serif;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
     background:#fff url(img/fundo.png) repeat-x;
 }
 
@@ -57,5 +57,16 @@ ul{
     background:url(img/divisor.png) no-repeat left center;
 }
 
-#MenuHorizontal ul
+#menuHorizontal ul .primeiro a {
+    background:none;
+}
 
+#menuHorizontal a:hover{
+    color:#69001d;
+}
+
+.home #menuHorizontal ul a#home{
+    color:#fff;
+    background:#de003e;
+    cursor:text;
+}   
