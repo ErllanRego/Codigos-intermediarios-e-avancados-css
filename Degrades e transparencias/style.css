@@ -1,4 +1,4 @@
-/*Prefixos de navegador serão necessários no box-sizing e no border-radius em caso de navegadores muito antigos*/
+
 h1,p{
     text-align:center;
 }
@@ -8,18 +8,18 @@ hr{
 }
 
 .caixa{
-    background:#7cfc00;
+    background:rgb(245, 56, 16 );/*Cores com RGB*/
     width:300px;
     height:300px;
-    padding:50px;/*Quando acrescentamos o padding, ele passa a somar espaço dentro da div, ou seja, 300px de altura+ 300px de largura+padding=400px*/
+    padding:50px;
     margin:5px;
     float:left;
-    box-sizing:border-box; /*Com esta tag, a div mantém o seu tamanho mesmo acrescentando o padding*/
-    border-radius:10px;/*Arredondamento*/
+    box-sizing:border-box; 
+    border-radius:10px;
 }
 
 .caixa2{
-    background:#7cfc00 url('img/limao.jpg')no-repeat center;
+    background:rgba(245, 56, 16, 0.5 );/*É a mesma cor da anterior(acima), porém com o rgba, o ultimo valor define a transparência da cor, quanto menor o valor, mais transparente*/
     background-size:300px;
     border:3px solid #7cfc00;
     width:300px;
@@ -32,21 +32,22 @@ hr{
 }
 
 .caixa3{
-    background:#7cfc00;
+    background:linear-gradient(to bottom,blue,red);/*Degradê:Pode-se colocar mais de duas cores inclusive, caso queira mudar a posição, pode-se inserir a posição antes.
+    Exemplos: -->to bottom- O degradê começa do top e vai para o bottom, daí o inglês "to bottom"*/
     width:300px;
     height:300px;
     padding:50px;
     margin:5px;
     box-sizing:border-box;
     float:left;
-    border-radius:0px 30px 30px 30px;/*Um valor para cada ponta, seguindo o sentido horário*/
+    border-radius:0px 50px 50px 50px;
 }
 
 .caixa4{
-    /*background:#7cfc00 url('img/limao.jpg')no-repeat left center;*/
-    background: #7cfc00 url('img/foto\ de\ perfil.jpg')no-repeat center top;
+    
+    background:radial-gradient(#FC008D,#001FFC );/*Semelhante ao linear-gradient, o radial faz um degradê focado no centro*/
     background-size:300px;
-    border:3px solid #7cfc00;
+    border:3px solid #001FFC;
     width:300px;
     height:300px;
     padding:50px;
