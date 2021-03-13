@@ -1,0 +1,30 @@
+.caixa, .caixa2, .caixa3{
+    width:300px;
+    height:300px;
+    padding:30px;
+    box-sizing:border-box;
+    background:lawngreen;
+    float:left;
+    margin:10px;
+}
+
+.caixa h1{
+    color:#fff;
+    text-shadow:20px 20px black;/*SOMBRA: o primeiro valor move a sombra horizontalmente, o segundo valor verticalmente e por ultimo a cor da sombra
+    Por padrão, as sombras ficam abaixo dos demais elementos*/
+}
+
+
+.caixa2 h1{
+    color:#fff;
+    /*O terceiro valor é do blur(borrão)*/
+    text-shadow:20px 20px 10px rgba(0, 0, 0, 0.6);
+    /*Neste exemplo além do efeito de blur, na cor foi aplicado o rgba com valor para dar mais transparência ao preto*/
+}
+
+.caixa3{
+    box-shadow:20px 20px 10px 30px rgba(0, 0, 0, 0.6);
+    /*Seguindo a mesma estrutura do text-shadow, o box-shadow faz a mesma coisa só que na div(na caixa)*/
+
+    /*O quarto valor altera o tamanho da sombra, que por padrão segue o mesmo tamanho da div.*/
+}
